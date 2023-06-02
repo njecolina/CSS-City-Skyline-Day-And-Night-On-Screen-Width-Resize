@@ -297,7 +297,19 @@ body {
     );
 }
 
-@media (max-width: 1000px) {
+/* Text style */
+.day-night-text {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  color: black;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}
+
+@media (max-width: 500px) {
   :root {
     --building-color1: #000;
     --building-color2: #000;
@@ -316,5 +328,8 @@ body {
         #445 21%,
         #223 100%
       );
+  }
+  .day-night-text {
+    color: white;
   }
 }
