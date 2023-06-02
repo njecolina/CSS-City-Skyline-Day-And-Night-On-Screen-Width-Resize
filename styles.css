@@ -305,7 +305,7 @@ body {
   margin-top: 5%;
   margin-right: 5%;
   color: black;
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
   font-family: Arial, sans-serif;
   text-align: right;
@@ -333,5 +333,6 @@ body {
   }
   .day-night-text {
     color: white;
+    font-size: 10px;
   }
 }
